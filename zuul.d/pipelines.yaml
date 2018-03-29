@@ -56,6 +56,9 @@
         - event: pull_request
           action: status
           status: "softwarefactory-project-zuul[bot]:ansible-network/check:success"
+        - event: pull_request
+          action: labeled
+          label: approved
     start:
       github.com:
         status: 'pending'
