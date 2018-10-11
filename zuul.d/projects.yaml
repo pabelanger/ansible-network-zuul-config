@@ -48,3 +48,9 @@
     name: github.com/ansible-network/sandbox
     templates:
       - ansible-role-release-jobs
+
+- project:
+    name: github.com/ansible-network/vyos
+    default-branch: devel
+    templates:
+      - ansible-python-jobs
