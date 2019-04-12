@@ -31,4 +31,5 @@
 - project:
     name: github.com/ansible-network/zuul-config
     templates:
-      - noop-jobs
+      - ansible-python-jobs
+      - build-tox-docs
